@@ -19,5 +19,6 @@ setup(
     url='https://github.com/tkm-central/pyprime',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
+    test_suite='tests'
 )
 
