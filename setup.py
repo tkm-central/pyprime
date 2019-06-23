@@ -18,7 +18,7 @@ setup(
     install_requires=['numpy'],
     url='https://github.com/tkm-central/pyprime',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    packages=find_packages(exclude=('tests', 'docs')),
     test_suite='tests'
 )
 
